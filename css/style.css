@@ -1,6 +1,60 @@
+/* background é a cor de fundo
+botoes */
+/* cores de textos */
+
+/* root é raiz, tudo que vai na root vão ser propriedades costumizadas */
+
+/* SEMPRE QUE FOR FAZER UMA ALTERAÇÃO FAZER UMA BRANCH NOVA PARA SUBIR PARA O GIT CERTINHO  */
+
+@font-face {
+  font-family: "montserrat";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+  /* passo o font style e display para que se cair por algum motivo a fonte que eu determinei não fica sem fonte o site  */
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background-primary-color: #ffffff;
+  --background-secondary-color: #f5f5f5;
+  --background-tertiary-color: #0000;
+
+  --butoon-primary-color: #8f0101;
+  --butoon-secondary-color: #b81515;
+
+  --text-primary-color: #222222;
+  --text-secondary-color: #ffffff;
+
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
+
+  /* menu: 500
+    footer: 400
+    cards 400 e 700
+    titulos e fontes do botão 700 */
+}
+
+h1 {
+  color: var(--butoon-secondary-color);
+}
+
+/* NÃO FIZ O GIT PUSH COMITEI TB , LEMBRAR QUE ESSE PROJETO VAI ESTAR EM PUBLICO NO MEU GIT , ENTÃO NÃO VOU COLOCAR COMENTARIOS PARA ESTUDO */
+/* QUANDO COMITAR VOU COLOCAR ADICIONA VARIAVEIS DE CORES */
+
 /* CSS RESET  */
-body, img,h1,p,fieldset,legend,label,input,select,textarea, button {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body,
+img,
+h1,
+p,
+fieldset,
+legend,
+label,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
